@@ -15424,16 +15424,6 @@
             "description": "NODES:ImNewNode, ImAppendNode, MergeNode, SetProperties, SaveToDirectory, batchNodes, redirectToNode, SetEvent, ..."
         },
         {
-            "author": "SSsnap",
-            "title": "Snap Processing for Comfyui",
-            "reference": "https://github.com/SS-snap/ComfyUI-Snap_Processing",
-            "files": [
-                "https://github.com/SS-snap/ComfyUI-Snap_Processing/blob/master/Snap_canvas.py"
-            ],
-            "install_type": "copy",
-            "description": "for preprocessing images, presented in a visual way. It also calculates the corresponding image area."
-        },
-        {
             "author": "RiceRound",
             "title": "ComfyUI Compression and Encryption Node",
             "id": "cryptocat",
@@ -15749,7 +15739,7 @@
             "files": [
                 "https://github.com/SS-snap/ComfyUI-Snap_Processing"
             ],
-            "install_type": "copy",
+            "install_type": "git-clone",
             "description": "preprocessing images, presented in a visual way. It also calculates the corresponding image area."
         },
         {
